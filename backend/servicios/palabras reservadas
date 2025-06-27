@@ -1,0 +1,44 @@
+¿para q es?
+NumPy (Numerical Python) es una de las bibliotecas fundamentales de Python para computación numérica y científica. Es ampliamente usada en ciencia de datos, 
+inteligencia artificial, análisis de datos, gráficos científicos y más.
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+Funciones NumPy
+
+array → crea un arreglo
+
+arange → crea un arreglo con valores en un rango
+
+linspace → crea un arreglo con valores equidistantes
+
+zeros, ones, empty → inicialización de arrays
+
+reshape, resize, ravel, flatten → transformación de arrays
+
+mean, sum, std, var, min, max → estadísticas
+
+dot, matmul, linalg → operaciones de álgebra lineal
+
+where, nonzero, argmax, argmin → búsqueda y condiciones
+
+random → módulo para generación de números aleatorios
+
+dtype, ndim, shape, size, itemsize → atributos importantes de arrays
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+Constantes comunes:
+
+np.pi, np.e → constantes matemáticas
+
+np.nan, np.inf → valores especiales
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+Librerias inspiradas en numpy
+
+pandas
+matplotlib
+scipy
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
