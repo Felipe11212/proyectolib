@@ -6,7 +6,7 @@ class Servicio(models.Model):
     hora_entrada = models.DateTimeField(default=timezone.now)
     hora_salida = models.DateTimeField(null=True, blank=True)
 
-
+# numpy
 def calcular_valor(self):
     import numpy as np  # Importamos NumPy para usar funciones matemáticas como np.ceil
 
@@ -26,5 +26,9 @@ def calcular_valor(self):
 
 # Este método define cómo se mostrará el objeto al imprimirlo (ej. print(objeto))
 def __str__(self):
+    # ///////////////////////////////////////////////
+
+
+    
     # Devuelve una cadena con la placa y el valor calculado
     return f"{self.placa} - ${self.calcular_valor()}"
